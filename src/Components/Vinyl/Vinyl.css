@@ -1,0 +1,31 @@
+
+
+.imageContainer {
+    position: absolute;
+    margin-left: 50%;
+    transform: rotate(-5deg);
+    z-index: -1;
+}
+
+.vinylImage {
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.vinylContainer1 {
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+}
+
+.vinylContainer2 {
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+}
+
+.vinylContainer3 {
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+}

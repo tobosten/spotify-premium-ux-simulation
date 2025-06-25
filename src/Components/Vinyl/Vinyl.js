@@ -1,4 +1,4 @@
-import VinylSCSS from './Vinyl.css';
+import './Vinyl.css';
 
 
 const Vinyl = () => {
@@ -30,8 +30,6 @@ const Vinyl = () => {
                 height={200} width={200} className="vinylImage"/> 
                 <img src="https://i.imgur.com/M2KJkmx.jpeg" alt="vinyl"
                 height={200} width={200} className="vinylImage"/>
-                {/* <img src="https://i.imgur.com/tEFXQGU.jpeg" 
-                    height={200} width={200} className="vinylImage"/>  */}
             </div>
 
 

@@ -1,6 +1,8 @@
 import './App.css';
 import './Header.css';
 import Vinyl from './Components/Vinyl/Vinyl';
+import ExperienceDifference from './Components/ExperienceDiff/ExperienceDiff';
+import Affordable from './Components/Affordable/Affordable';
 
 // #000000
 // #121212
@@ -16,6 +18,8 @@ function App() {
 
  return (
     <div className="App">
+      
+      
         <header className="headerContainer">
           <div className="headerWidth">
             <div className="logoContainer">
@@ -37,48 +41,38 @@ function App() {
             </div>
            </div>
         </header>
-        <Vinyl />
+        {/* <Vinyl /> */}
         
+        {/* Listen without limits */}
+          <div className="contentContainer">
+            <div className="withoutLimitsContainer">
+              <span className="withoutLimitsText1">Listen without limits.</span>
+              <span className="withoutLimitsText2">Try 1 month of Premium 
+                <br></br>Individual for €0
+              </span>
+              <span className="withoutLimitsText3">Only €11.99/month after. 
+                Cancel anytime.</span>
 
-        <div className="contentContainer">
-          <div className="withoutLimitsContainer">
-            <span className="withoutLimitsText1">Listen without limits.</span>
-            <span className="withoutLimitsText2">Try 1 month of Premium 
-              <br></br>Individual for €0
-            </span>
-            <span className="withoutLimitsText3">Only €11.99/month after. 
-              Cancel anytime.</span>
-
-            <div className="withoutLimitsButtons">
-              <a className="getStartedButton" href='./App.js'>Get Started</a>
-              <a className="viewAllPlansButton" href='./App.js'>View all plans</a>
+              <div className="withoutLimitsButtons">
+                <a className="getStartedButton" href='./App.js'>Get Started</a>
+                <a className="viewAllPlansButton" href='./App.js'>View all plans</a>
+              </div>
+            <div className="termsText">
+              €0 for 1 month, then €11.99 per month after.<br></br>
+              Offer only available if you haven’t tried Premium before.
+              <a className="termsTextLink" href='./App.js'>Terms apply.</a>
             </div>
-          <div className="termsText">
-            €0 for 1 month, then €11.99 per month after.<br></br>
-            Offer only available if you haven’t tried Premium before.
-            <a className="termsTextLink" href='./App.js'>Terms apply.</a>
-          </div>
+
+         
           </div>
 
 
-          <div>
-              <div className="experienceContainer">
-                <span className="differenceText">Experience the difference</span>
-                <span className="goPremiumText">Go Premium and enjoy full control of your listening.</span>
-                <span className="goPremiumText">Cancel anytime.</span>
-              </div>
-
-              <div>
-
-              </div>
-          </div>
-
+          <ExperienceDifference />
+          
+          <Affordable />
 
 
         </div>
-        
-
-
     </div>
   ); 
 }

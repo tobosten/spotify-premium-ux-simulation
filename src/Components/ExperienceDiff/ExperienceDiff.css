@@ -1,0 +1,73 @@
+
+.experienceDiff {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.experienceContainer {
+  color: var(--basic-text);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.differenceText {
+  font-size: var(--title-size);
+  font-weight: var(--font-header-weight);
+  margin-bottom: 10px;
+}
+
+.goPremiumText {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+
+.premiumShowcaseContainer {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-self: center;
+  width: 500px;
+  margin-top: 2rem;
+  height: 500px;
+  align-self: center;
+  
+}
+
+.experienceTopText {
+  font-weight: var(--font-header-weight);
+}
+
+
+.experiencePlanTitles {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+  height: 80px;
+  align-items: center;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+.experiencePlanTitles:hover {
+  background-color: rgb(31, 31, 31);
+}
+
+.disableHover {
+  pointer-events: none;
+}
+
+.experiencePlanTitles span {
+  flex: 1;
+}
+
+.experienceFreePlanLine {
+  height: 2px;
+  width: 20px;
+  background-color: gray;
+  align-self: center;
+}

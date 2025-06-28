@@ -3,7 +3,7 @@
   overflow-x: hidden;
   --basic-text: white;
   --font-family: sans-serif;
-  --title-size: 40px;
+  --title-size: 36px;
 }
 
 .App {
@@ -48,13 +48,13 @@
 .withoutLimitsText1 {
   color: var(--basic-text);
   font-weight: var(--font-header-weight);
-  font-size: var(--title-size)
+  font-size: 42px;
 }
 
 .withoutLimitsText2 {
   color: var(--basic-text);
   font-weight: 700;
-  font-size: 30px;
+  font-size: var(--title-size)
 }
 
 .withoutLimitsText3 {
@@ -121,22 +121,5 @@
   color: white;
 }
 
-.experienceContainer {
-  border: 1px solid white;
-  color: var(--basic-text);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 12rem;
-}
 
-.differenceText {
-  font-size: var(--title-size);
-  font-weight: var(--font-header-weight);
-  margin-bottom: 10px;
-}
 
-.goPremiumText {
-  font-weight: 400;
-  font-size: 24px;
-}

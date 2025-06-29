@@ -13,6 +13,7 @@ import PlanCard from './Components/PlanCard/PlanCard';
 // #C4B1D4
 // #FFC962
 // #F5BBD1
+// #A5BBD1
 
 // Site: https://www.spotify.com/ie/premium/
 
@@ -78,6 +79,7 @@ function App() {
             color={"#FFD2D7"} 
             priceText={"€0 for 2 months"} priceText2={"€11.99/month after"}
             title={"Individual"}
+            listAmount={3}
             li1={"1 Premium account"} li2={"Cancel anytime"}
             li3={"15 hours/month of listening time from our audiobooks subscriber catalogue"}
             bottomText={"€0 for 2 months, then €11.99 per month after." + 
@@ -89,6 +91,7 @@ function App() {
             priceText={"€0 for 1 month"}
             priceText2={"€5.99/month after"}
             title={"Student"}
+            listAmount={3}
             li1={"1 verified Premium account"}
             li2={"Discount for eligible students"}
             li3={"Cancel anytime"}
@@ -96,6 +99,32 @@ function App() {
               "Offer available only to students at an accredited higher education institution" + 
               "and if you haven’t tried Premium before."}
           />
+        </div>
+
+        <div className="planCardsContainer">
+          <PlanCard 
+            color={"#FFC962"} 
+            priceText={""} priceText2={"€16.99 / month"}
+            title={"Duo"}
+            listAmount={3}
+            li1={"2 Premium accounts"} li2={"Cancel anytime"}
+            li3={"15 hours/month of listening time from our audiobooks subscriber catalogue (plan manager only)"}
+            bottomText={"For couples who reside at the same address."}
+          />
+          <PlanCard 
+            color={"#A5BBD1"} 
+            priceText={""} priceText2={"€19.99 / month"}
+            title={"Family"}
+            listAmount={4}
+            li1={"Up to 6 Premium or Kids accounts"} 
+            li2={"Control content marked as explicit"}
+            li3={"Access to Spotify Kids"}
+            li4={"Cancel anytime"}
+            li5={"15 hours/month of listening time from our audiobooks"+
+              "subscriber catalogue (plan manager only)"}
+            bottomText={"For up to 6 family members residing at the same address."}
+          />
+
         </div>
           
 

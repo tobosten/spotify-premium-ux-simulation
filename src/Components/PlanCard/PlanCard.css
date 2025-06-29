@@ -1,11 +1,14 @@
 
 .plansContainer {
     align-self: center;
+    display: flex;
     background-color: #242424;
     min-width: 450px;
     max-width: 450px;
     border-radius: 10px;
     margin: 1.5rem;
+    height: 500px;
+    padding-bottom: 10px;
 }
 
 .plansTop {
@@ -23,13 +26,13 @@
 }
 
 .bottomTopContainer {
-    margin: 30px 20px 20px 20px;
+    margin: 30px 20px 10px 20px;
     border-bottom: 1px solid gray;
     padding-bottom: 1rem;
-    margin-bottom: 1rem;
 }
 
 .plansPremiumText {
+    margin-top: auto;
     color: white;
     font-size: 18px;
 }
@@ -56,6 +59,7 @@
 .plansUl {
     color: white;
     font-size: 16px;
+    height: 120px;
 }
 
 .plansUl li {
@@ -71,7 +75,6 @@
     font-weight: 700;
     padding-top: 15px;
     padding-bottom: 15px;
-    margin-bottom: 2rem;
 }
 
 .plansBottomText {
@@ -80,7 +83,8 @@
     text-align: center;
     font-size: 13px;
     padding: 4px 16px 16px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    height: 70px;
 }
 
 .plansBottomText a {

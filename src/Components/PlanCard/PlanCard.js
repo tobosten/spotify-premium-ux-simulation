@@ -2,8 +2,31 @@ import './PlanCard.css'
 
 
 
-const PlanCard = ({color, priceText, priceText2, title, li1, li2, li3, bottomText}) => {
+const PlanCard = ({color, priceText, priceText2, title, li1, li2, li3, li4, li5, bottomText, listAmount}) => {
 
+
+    function returnListSize(amount) {
+        if (amount == 3) {
+            return(
+                <div>
+                    <li>{li1}</li>
+                    <li>{li2}</li>
+                    <li>{li3}</li>
+                </div> 
+            )
+        } else {
+            return(
+                <div>
+                    <li>{li1}</li>
+                    <li>{li2}</li>
+                    <li>{li3}</li>
+                    <li>{li4}</li>
+                    <li>{li5}</li>
+                </div>
+            )
+        }
+    }
+    
 
 // €
     return(
@@ -19,9 +42,7 @@ const PlanCard = ({color, priceText, priceText2, title, li1, li2, li3, bottomTex
                 </div>
 
                 <ul className="plansUl">
-                    <li>{li1}</li>
-                    <li>{li2}</li>
-                    <li>{li3}</li>
+                    {returnListSize(listAmount)}
                 </ul>
 
                 <div className="plansButton" style={{backgroundColor: color}}>

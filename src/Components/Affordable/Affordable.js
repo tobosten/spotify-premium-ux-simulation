@@ -1,6 +1,7 @@
 
 
 import './affordable.css';
+import '../../App1000.css'
 
 const Affordable = () => {
 

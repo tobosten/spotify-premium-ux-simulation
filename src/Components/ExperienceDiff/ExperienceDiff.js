@@ -1,4 +1,5 @@
 import './ExperienceDiff.css'
+import '../../App1000.css'
 
 const ExpereienceDiff = () => {
 
@@ -6,7 +7,7 @@ const ExpereienceDiff = () => {
     return(
         <div className="experienceDiff">
             <div className="experienceContainer">
-                <span className="differenceText">Experience the difference</span>
+                <h2 className="differenceText">Experience the difference</h2>
                 <span className="goPremiumText">Go Premium and enjoy full control of your listening.</span>
                 <span className="goPremiumText">Cancel anytime.</span>
               </div>

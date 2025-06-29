@@ -1,8 +1,10 @@
 import './App.css';
+import './App1000.css';
 import './Header.css';
 import Vinyl from './Components/Vinyl/Vinyl';
 import ExperienceDifference from './Components/ExperienceDiff/ExperienceDiff';
 import Affordable from './Components/Affordable/Affordable';
+import PlanCard from './Components/PlanCard/PlanCard';
 
 // #000000
 // #121212
@@ -71,6 +73,31 @@ function App() {
           
           <Affordable />
 
+        <div className="planCardsContainer">
+          <PlanCard 
+            color={"#FFD2D7"} 
+            priceText={"€0 for 2 months"} priceText2={"€11.99/month after"}
+            title={"Individual"}
+            li1={"1 Premium account"} li2={"Cancel anytime"}
+            li3={"15 hours/month of listening time from our audiobooks subscriber catalogue"}
+            bottomText={"€0 for 2 months, then €11.99 per month after." + 
+              "Offer only available if you haven’t tried Premium before."}
+          />
+
+          <PlanCard 
+            color={"#C4B1D4"}
+            priceText={"€0 for 1 month"}
+            priceText2={"€5.99/month after"}
+            title={"Student"}
+            li1={"1 verified Premium account"}
+            li2={"Discount for eligible students"}
+            li3={"Cancel anytime"}
+            bottomText={"€0 for 1 month, then €5.99 per month after." + 
+              "Offer available only to students at an accredited higher education institution" + 
+              "and if you haven’t tried Premium before."}
+          />
+        </div>
+          
 
         </div>
     </div>

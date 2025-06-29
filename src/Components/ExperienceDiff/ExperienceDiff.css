@@ -14,7 +14,7 @@
 }
 
 .differenceText {
-  font-size: var(--title-size);
+  font-size: 36px;
   font-weight: var(--font-header-weight);
   margin-bottom: 10px;
 }
@@ -22,6 +22,7 @@
 .goPremiumText {
   font-weight: 400;
   font-size: 24px;
+  text-align: center;
 }
 
 

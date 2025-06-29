@@ -9,7 +9,7 @@ root.render(
   <React.StrictMode>
     {/*  */}
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&icon_names=remove,task_alt" />
-
+    <link type="text/css" rel="stylesheet" media="screen"  href="css/App1100.css"></link>
     <App />
 
   </React.StrictMode>

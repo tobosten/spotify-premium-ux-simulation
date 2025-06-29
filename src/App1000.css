@@ -1,0 +1,21 @@
+@media only screen and (max-width : 1000px) {
+    .planCardsContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .premiumIncludeTitle {
+        font-size: 24px;
+    }
+
+    .affordableContainer h2 {
+        font-size: 30px;
+    }
+
+    .goPremiumText {
+        
+    }
+
+
+}

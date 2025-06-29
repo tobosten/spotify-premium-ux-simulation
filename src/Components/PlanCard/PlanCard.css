@@ -1,0 +1,89 @@
+
+.plansContainer {
+    align-self: center;
+    background-color: #242424;
+    min-width: 450px;
+    max-width: 450px;
+    border-radius: 10px;
+    margin: 1.5rem;
+}
+
+.plansTop {
+    display: flex;
+    flex-direction: column;
+}
+
+.plansTopPrice {
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 5px 15px 5px 15px;
+    margin-right: auto;
+}
+
+.bottomTopContainer {
+    margin: 30px 20px 20px 20px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.plansPremiumText {
+    color: white;
+    font-size: 18px;
+}
+
+.plansCardTitle {
+    font-size: var(--title-size);
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.plansMiddlePrice {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+
+.plansMiddlePrice2 {
+    color: lightgray;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.plansUl {
+    color: white;
+    font-size: 16px;
+}
+
+.plansUl li {
+    margin-bottom: 5px;
+}
+
+.plansButton {
+    width: 90%;
+    text-align: center;
+    align-self: center;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 2rem;
+}
+
+.plansBottomText {
+    color: lightgray;
+    justify-content: center;
+    text-align: center;
+    font-size: 13px;
+    padding: 4px 16px 16px;
+    margin-bottom: 10px;
+}
+
+.plansBottomText a {
+    color: lightgray;
+}
+

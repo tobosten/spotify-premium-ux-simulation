@@ -124,7 +124,15 @@ function App() {
               "subscriber catalogue (plan manager only)"}
             bottomText={"For up to 6 family members residing at the same address."}
           />
+            
+        </div> 
 
+
+        <div className="questionsContainer">
+          <h2>Questions?</h2>
+          <div className="gotAnswersText">We’ve got answers.</div>
+          <div className="gotAnswersText">Find more answers on our <a className="supportSiteA" href='./App.js'>Support site.</a></div>
+        
         </div>
           
 

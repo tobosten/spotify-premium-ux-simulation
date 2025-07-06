@@ -1,0 +1,51 @@
+
+
+.dropdownContainer {
+  width: 90%;
+  margin-top: 1rem;
+  display: flex;
+  
+
+}
+
+.dropdown1 {
+  
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid gray;
+  width: 100%;
+  border-radius: 3px;
+  height: 60px;
+  align-items: center;
+}
+
+.titleContainer:hover {
+  background-color: rgb(31, 31, 31);
+}
+
+.backgroundColorGray {
+  background-color: rgb(31, 31, 31);
+}
+
+.dropdownTitle {
+  flex: auto;
+  margin-left: 1rem;
+}
+
+.dropdownArrow {
+  margin-right: 1rem;
+}
+
+.dropdownText {
+  padding: 10px 20px 10px 20px;
+}

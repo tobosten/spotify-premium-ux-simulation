@@ -28,6 +28,7 @@
   font-size: 20px;
   font-weight: var(--font-header-weight);
   text-decoration: none;
+  padding: 5px;
 }
 .headerAnimation {
   display: flex;

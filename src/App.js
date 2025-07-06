@@ -5,6 +5,7 @@ import Vinyl from './Components/Vinyl/Vinyl';
 import ExperienceDifference from './Components/ExperienceDiff/ExperienceDiff';
 import Affordable from './Components/Affordable/Affordable';
 import PlanCard from './Components/PlanCard/PlanCard';
+import Dropdown from './Components/Dropdown/Dropdown';
 
 // #000000
 // #121212
@@ -132,8 +133,8 @@ function App() {
           <h2>Questions?</h2>
           <div className="gotAnswersText">We’ve got answers.</div>
           <div className="gotAnswersText">Find more answers on our <a className="supportSiteA" href='./App.js'>Support site.</a></div>
-        
-        </div>
+          <Dropdown />
+        </div>  
           
 
         </div>

@@ -18,7 +18,7 @@ const Dropdown = () => {
     if (isVisible) {
       return (
         <div id="dropdown1">
-          <div className="dropdownText">
+          <div className="dropdownText backgroundColorGray">
             If you’ve never had Premium before, you may be eligible for a free
             (or reduced rate) trial.
             <br />
@@ -40,7 +40,7 @@ const Dropdown = () => {
   function drop2(isVisible) {
     if (isVisible) {
         return (
-          <div className="dropdownText">
+          <div className="dropdownText backgroundColorGray">
             You can easily cancel your Premium plan online at any time on your
             account page.
             <br />
@@ -67,7 +67,7 @@ const Dropdown = () => {
   function drop3(isVisible) {
     if (isVisible) {
         return (
-          <div className="dropdownText">
+          <div className="dropdownText backgroundColorGray">
             Premium Duo is a plan for a couple who live together. 
             Compared with having two full-price Premium Individual accounts, 
             it’s also cheaper. We’ll ask for your address to ensure you live at the same address. 
@@ -85,7 +85,7 @@ const Dropdown = () => {
   function drop4(isVisible) {
     if (isVisible) {
         return (
-          <div className="dropdownText">
+          <div className="dropdownText backgroundColorGray">
             Premium Family is a plan for up to 6 family members who live together. 
             Compared to everyone having their own full-price Premium Individual account, 
             it’s also cheaper. We will ask for your address to ensure you live at the same address. 
@@ -105,7 +105,7 @@ const Dropdown = () => {
   function drop5(isVisible) {
     if (isVisible) {
         return (
-          <div className="dropdownText">
+          <div className="dropdownText backgroundColorGray">
             If you are a student enrolled at an accredited college or university, 
             and above the age of 18, then yes. You can get Premium Student for up to 4 years. 
             Student plan holders don’t have audiobook listening time included in their Premium plan.
@@ -121,7 +121,7 @@ const Dropdown = () => {
   function drop6(isVisible) {
     if (isVisible) {
         return (
-          <div className="dropdownText">
+          <div className="dropdownText backgroundColorGray">
             The Spotify Premium prices in Ireland are different depending on which Premium plan you 
             choose: The Spotify Premium Individual plan costs €11.99 per month, 
             the Premium Duo plan costs €16.99 per month, the Premium Family plan costs €19.99 per month, 
@@ -136,7 +136,7 @@ const Dropdown = () => {
   function drop7(isVisible) {
     if (isVisible) {
         return (
-          <div className="dropdownText">
+          <div className="dropdownText backgroundColorGray">
             With a Premium Individual plan, you now have access to 15 hours of 
             audiobook listening time per month. Unused listening hours expire at the end of 
             each month and do not carry over. The audiobook subscriber catalogue includes 
@@ -150,7 +150,7 @@ const Dropdown = () => {
   function drop8(isVisible) {
     if (isVisible) {
         return (
-          <div className="dropdownText">
+          <div className="dropdownText backgroundColorGray">
             Duo or Family plan managers have access to 15 hours of audiobook listening time 
             every month from our <a href="">audiobook subscriber catalogue</a>. 
             Unused listening hours expire at the end of each month and do not carry over. 

@@ -1,6 +1,5 @@
 import "./Dropdown.css";
 import { useEffect, useState, useRef } from "react";
-import optionValues from "./QuestionArray";
 
 const Dropdown = () => {
   const [show1, setShow1] = useState(false);
@@ -11,7 +10,6 @@ const Dropdown = () => {
   const [show6, setShow6] = useState(false);
   const [show7, setShow7] = useState(false);
   const [show8, setShow8] = useState(false);
-  /* TEST */
 
   useEffect(() => {}, []);
 

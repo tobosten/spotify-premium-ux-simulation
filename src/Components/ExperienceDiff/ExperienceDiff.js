@@ -20,37 +20,37 @@ const ExpereienceDiff = () => {
                 </div>
 
                 <div className="experiencePlanTitles">
-                  <span>Ad-free music listening</span>
+                  <span className="experienceInfoText">Ad-free music listening</span>
                   <span className="material-symbols-outlined">remove</span>
                   <span className="material-symbols-outlined">task_alt</span> 
                 </div>
 
                 <div className="experiencePlanTitles">
-                  <span>Download to listen offline</span>
+                  <span className="experienceInfoText">Download to listen offline</span>
                   <span className="material-symbols-outlined">remove</span>
                   <span className="material-symbols-outlined">task_alt</span> 
                 </div>
 
                 <div className="experiencePlanTitles">
-                  <span>Play songs in any order</span>
+                  <span className="experienceInfoText">Play songs in any order</span>
                   <span className="material-symbols-outlined">remove</span>
                   <span className="material-symbols-outlined">task_alt</span> 
                 </div>
 
                 <div className="experiencePlanTitles">
-                  <span>High audio quality</span>
+                  <span className="experienceInfoText">High audio quality</span>
                   <span className="material-symbols-outlined">remove</span>
                   <span className="material-symbols-outlined">task_alt</span> 
                  </div>
 
                 <div className="experiencePlanTitles">
-                  <span>Listen with friends in real time</span>
+                  <span className="experienceInfoText">Listen with friends in real time</span>
                   <span className="material-symbols-outlined">remove</span>
                   <span className="material-symbols-outlined">task_alt</span> 
                 </div>
 
                 <div className="experiencePlanTitles">
-                  <span>Organise listening queue</span>
+                  <span className="experienceInfoText">Organise listening queue</span>
                   <span className="material-symbols-outlined">remove</span>
                   <span className="material-symbols-outlined">task_alt</span> 
                 </div>

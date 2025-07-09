@@ -75,6 +75,12 @@
     font-weight: 700;
     padding-top: 15px;
     padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+.plansButton:hover {
+    width: 92%;
+    cursor: pointer;
 }
 
 .plansBottomText {
@@ -89,6 +95,10 @@
 
 .plansBottomText a {
     color: lightgray;
+}
+
+.plansBottomText a:hover {
+    font-weight: 700;
 }
 
 .questionsContainer {

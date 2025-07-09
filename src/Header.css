@@ -91,6 +91,10 @@
   color: white;
 }
 
+.headerOptionsRight a:hover {
+  color: rgb(0, 255, 0)
+}
+
 .downloadSignUpBorder {
   border-right: 2px solid white;
   margin-left: 20px;

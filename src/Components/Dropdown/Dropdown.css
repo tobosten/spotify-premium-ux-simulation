@@ -30,7 +30,10 @@
 .titleContainer:hover {
   background-color: rgb(31, 31, 31);
   text-decoration: underline;
+  cursor: pointer;
 }
+
+
 
 .backgroundColorGray {
   background-color: rgb(31, 31, 31);
@@ -54,4 +57,8 @@
 
 .dropdownText a {
   color: white;
+}
+
+.dropdownText a:hover {
+  font-weight: 700;
 }

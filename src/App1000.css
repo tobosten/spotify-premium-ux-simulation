@@ -19,3 +19,14 @@
 
 
 }
+
+@media only screen and (max-width : 800px) {
+    
+  .footerLinks {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 90%;
+    align-self: center;
+    }
+}

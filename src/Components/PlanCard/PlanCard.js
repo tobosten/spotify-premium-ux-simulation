@@ -51,7 +51,7 @@ const PlanCard = ({color, priceText, priceText2, title, li1, li2, li3, li4, li5,
 
                 <div className="plansBottomText">
                     {bottomText}
-                    <a href='../../App.js'>Terms apply.</a>
+                    <a href=''>Terms apply.</a>
                 </div>
             </div>
             

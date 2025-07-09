@@ -24,7 +24,7 @@ function App() {
       <header className="headerContainer">
         <div className="headerWidth">
           <div className="logoContainer">
-            <a href="./App.js" className="headerTitle">
+            <a href="" className="headerTitle">
               Spotify
             </a>
             <div className="headerAnimation">
@@ -35,12 +35,12 @@ function App() {
           </div>
 
           <div className="headerOptionsRight">
-            <a href="./App.js">Premium</a>
-            <a href="./App.js">Support</a>
-            <a href="./App.js">Download</a>
+            <a href="">Premium</a>
+            <a href="">Support</a>
+            <a href="">Download</a>
             <span className="downloadSignUpBorder"></span>
-            <a href="./App.js">Sign up</a>
-            <a href="./App.js">Log in</a>
+            <a href="">Sign up</a>
+            <a href="">Log in</a>
           </div>
         </div>
       </header>
@@ -59,17 +59,17 @@ function App() {
           </span>
 
           <div className="withoutLimitsButtons">
-            <a className="getStartedButton" href="./App.js">
+            <a className="getStartedButton" href="">
               Get Started
             </a>
-            <a className="viewAllPlansButton" href="./App.js">
+            <a className="viewAllPlansButton" href="">
               View all plans
             </a>
           </div>
           <div className="termsText">
             €0 for 1 month, then €11.99 per month after.<br></br>
             Offer only available if you haven’t tried Premium before.
-            <a className="termsTextLink" href="./App.js">
+            <a className="termsTextLink" href="">
               Terms apply.
             </a>
           </div>
@@ -152,7 +152,7 @@ function App() {
           <div className="gotAnswersText">We’ve got answers.</div>
           <div className="gotAnswersText">
             Find more answers on our{" "}
-            <a className="supportSiteA" href="./App.js">
+            <a className="supportSiteA" href="">
               Support site.
             </a>
           </div>

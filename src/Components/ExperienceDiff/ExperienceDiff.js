@@ -1,5 +1,7 @@
 import './ExperienceDiff.css'
-import '../../App1000.css'
+import '../../MediaScreen/App1000.css'
+import "../../MediaScreen/App800900.css";
+
 
 const ExpereienceDiff = () => {
 

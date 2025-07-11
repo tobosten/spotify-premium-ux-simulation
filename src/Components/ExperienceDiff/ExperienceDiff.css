@@ -17,6 +17,7 @@
   font-size: 36px;
   font-weight: var(--font-header-weight);
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .goPremiumText {
@@ -32,7 +33,8 @@
   flex-direction: column;
   justify-content: center;
   justify-self: center;
-  width: 500px;
+  max-width: 500px;
+  width: 100%;
   margin-top: 2rem;
   height: 500px;
   align-self: center;

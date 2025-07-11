@@ -1,11 +1,12 @@
 import "./App.css";
-import "./App1000.css";
+import "./MediaScreen/App1000.css";
 import "./Header.css";
 import Vinyl from "./Components/Vinyl/Vinyl";
 import ExperienceDifference from "./Components/ExperienceDiff/ExperienceDiff";
 import Affordable from "./Components/Affordable/Affordable";
 import PlanCard from "./Components/PlanCard/PlanCard";
 import Dropdown from "./Components/Dropdown/Dropdown";
+import { useEffect, useState } from "react";
 
 // #000000
 // #121212
@@ -19,6 +20,21 @@ import Dropdown from "./Components/Dropdown/Dropdown";
 // Site: https://www.spotify.com/ie/premium/
 
 function App() {
+
+  const [sidebarOpen, setSidebarOpen] = useState(false)
+
+  function Sidebar() {
+
+
+    if(sidebarOpen === true) {
+      return(
+        <div className="sidebar">
+          Hej
+        </div>
+      )
+    }
+  }
+ 
   return (
     <div className="App">
       <header className="headerContainer">
@@ -42,6 +58,15 @@ function App() {
             <a href="">Sign up</a>
             <a href="">Log in</a>
           </div>
+
+          <button className="headerPopupMenu"
+            onClick={() => {
+              setSidebarOpen(!sidebarOpen)
+            }}
+          >
+            <span className="material-symbols-outlined">dehaze</span>
+            {Sidebar()}
+          </button>
         </div>
       </header>
       {/* <Vinyl /> */}
@@ -163,8 +188,9 @@ function App() {
       <footer className="footerContainer">
         <div className="footerLinks">
           <div className="linkContainer linkSpotifyText">
-            <div className="linkSpotifyLogo"/>
-            Spotify</div>
+            <div className="linkSpotifyLogo" />
+            Spotify
+          </div>
           <div className="linkContainer">
             <h3>Company</h3>
             <a>About</a>
@@ -202,9 +228,11 @@ function App() {
         </div>
         <div className="footerCountry">
           {/* <div className="footerCountryGlobe"/> */}
-          <span class="material-symbols-outlined footerCountryGlobe">public</span>
+          <span className="material-symbols-outlined footerCountryGlobe">
+            public
+          </span>
           <div className="footerCountryText">Ireland</div>
-          </div>
+        </div>
         <div className="footerBottomText">
           <a>Legal</a>
           <a>Safety & Privacy Center</a>
@@ -214,9 +242,7 @@ function App() {
           <a>Accessibility</a>
           <div>© 2025 Spotify AB</div>
         </div>
-
       </footer>
-
     </div>
   );
 }

@@ -6,7 +6,7 @@ const PlanCard = ({color, priceText, priceText2, title, li1, li2, li3, li4, li5,
 
 
     function returnListSize(amount) {
-        if (amount == 3) {
+        if (amount === 3) {
             return(
                 <div>
                     <li>{li1}</li>

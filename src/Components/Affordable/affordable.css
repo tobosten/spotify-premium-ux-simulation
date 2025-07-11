@@ -11,7 +11,7 @@
 .affordableTitle {
   font-size: 36px;
   font-weight: var(--font-header-weight);
-  align-self: center;
+  text-align: center;
 }
 
 .affordableText {
@@ -39,14 +39,6 @@
   background-color: white;
   height: 37px;
   width: 55px;
-}
-
-.affordableCardsCard {
-  padding: 2px;
-  border: 1px solid lightgray;
-  width: 40px;
-  height: 25px;
-  border-radius: 3px;
 }
 
 .premiumInclude {

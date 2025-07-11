@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/spotify-premium-ux-simulation/static/css/main.2d98f7f1.css",
-    "main.js": "/spotify-premium-ux-simulation/static/js/main.85a58b93.js",
+    "main.css": "/spotify-premium-ux-simulation/static/css/main.bd09e775.css",
+    "main.js": "/spotify-premium-ux-simulation/static/js/main.d696e488.js",
     "static/js/453.8e602fbf.chunk.js": "/spotify-premium-ux-simulation/static/js/453.8e602fbf.chunk.js",
     "index.html": "/spotify-premium-ux-simulation/index.html",
-    "main.2d98f7f1.css.map": "/spotify-premium-ux-simulation/static/css/main.2d98f7f1.css.map",
-    "main.85a58b93.js.map": "/spotify-premium-ux-simulation/static/js/main.85a58b93.js.map",
+    "main.bd09e775.css.map": "/spotify-premium-ux-simulation/static/css/main.bd09e775.css.map",
+    "main.d696e488.js.map": "/spotify-premium-ux-simulation/static/js/main.d696e488.js.map",
     "453.8e602fbf.chunk.js.map": "/spotify-premium-ux-simulation/static/js/453.8e602fbf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d98f7f1.css",
-    "static/js/main.85a58b93.js"
+    "static/css/main.bd09e775.css",
+    "static/js/main.d696e488.js"
   ]
 }

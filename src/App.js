@@ -20,21 +20,14 @@ import { useEffect, useState } from "react";
 // Site: https://www.spotify.com/ie/premium/
 
 function App() {
-
-  const [sidebarOpen, setSidebarOpen] = useState(false)
+  const [sidebarOpen, setSidebarOpen] = useState(false);
 
   function Sidebar() {
-
-
-    if(sidebarOpen === true) {
-      return(
-        <div className="sidebar">
-          Hej
-        </div>
-      )
+    if (sidebarOpen === true) {
+      return <div className="sidebar">Hej</div>;
     }
   }
- 
+
   return (
     <div className="App">
       <header className="headerContainer">
@@ -59,9 +52,10 @@ function App() {
             <a href="">Log in</a>
           </div>
 
-          <button className="headerPopupMenu"
+          <button
+            className="headerPopupMenu"
             onClick={() => {
-              setSidebarOpen(!sidebarOpen)
+              setSidebarOpen(!sidebarOpen);
             }}
           >
             <span className="material-symbols-outlined">dehaze</span>
@@ -116,8 +110,9 @@ function App() {
             li3={
               "15 hours/month of listening time from our audiobooks subscriber catalogue"
             }
+            btnText={"Try 2 months for €0"}
             bottomText={
-              "€0 for 2 months, then €11.99 per month after." +
+              "€0 for 2 months, then €11.99 per month after. " +
               "Offer only available if you haven’t tried Premium before."
             }
           />
@@ -130,9 +125,10 @@ function App() {
             li1={"1 verified Premium account"}
             li2={"Discount for eligible students"}
             li3={"Cancel anytime"}
+            btnText={"Try 1 months for €0"}
             bottomText={
-              "€0 for 1 month, then €5.99 per month after." +
-              "Offer available only to students at an accredited higher education institution" +
+              "€0 for 1 month, then €5.99 per month after. " +
+              "Offer available only to students at an accredited higher education institution " +
               "and if you haven’t tried Premium before."
             }
           />
@@ -141,8 +137,8 @@ function App() {
         <div className="planCardsContainer">
           <PlanCard
             color={"#FFC962"}
-            priceText={""}
-            priceText2={"€16.99 / month"}
+            priceText={"€16.99 / month"}
+            priceText2={""}
             title={"Duo"}
             listAmount={3}
             li1={"2 Premium accounts"}
@@ -150,12 +146,13 @@ function App() {
             li3={
               "15 hours/month of listening time from our audiobooks subscriber catalogue (plan manager only)"
             }
+            btnText={"Get Premium Duo"}
             bottomText={"For couples who reside at the same address."}
           />
           <PlanCard
             color={"#A5BBD1"}
-            priceText={""}
-            priceText2={"€19.99 / month"}
+            priceText={"€19.99 / month"}
+            priceText2={""}
             title={"Family"}
             listAmount={4}
             li1={"Up to 6 Premium or Kids accounts"}
@@ -163,9 +160,10 @@ function App() {
             li3={"Access to Spotify Kids"}
             li4={"Cancel anytime"}
             li5={
-              "15 hours/month of listening time from our audiobooks" +
+              "15 hours/month of listening time from our audiobooks " +
               "subscriber catalogue (plan manager only)"
             }
+            btnText={"Get Premium Family"}
             bottomText={
               "For up to 6 family members residing at the same address."
             }

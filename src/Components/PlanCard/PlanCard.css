@@ -66,6 +66,15 @@
     margin-bottom: 5px;
 }
 
+
+
+.cardBottomContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 .plansButton {
     width: 90%;
     text-align: center;
@@ -75,7 +84,7 @@
     font-weight: 700;
     padding-top: 15px;
     padding-bottom: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .plansButton:hover {
@@ -84,17 +93,18 @@
 }
 
 .plansBottomText {
-    color: lightgray;
+    color: gray;
     justify-content: center;
     text-align: center;
     font-size: 13px;
-    padding: 4px 16px 16px;
-    margin-top: 20px;
-    height: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
+
+
 .plansBottomText a {
-    color: lightgray;
+    color: gray;
 }
 
 .plansBottomText a:hover {

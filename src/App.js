@@ -6,7 +6,9 @@ import ExperienceDifference from "./Components/ExperienceDiff/ExperienceDiff";
 import Affordable from "./Components/Affordable/Affordable";
 import PlanCard from "./Components/PlanCard/PlanCard";
 import Dropdown from "./Components/Dropdown/Dropdown";
+import Sidebar from "./Components/Sidebar/Sidebar";
 import { useEffect, useState } from "react";
+import { MdClose } from "react-icons/md";
 
 // #000000
 // #121212
@@ -22,11 +24,6 @@ import { useEffect, useState } from "react";
 function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
-  function Sidebar() {
-    if (sidebarOpen === true) {
-      return <div className="sidebar">Hej</div>;
-    }
-  }
 
   return (
     <div className="App">
@@ -58,11 +55,18 @@ function App() {
               setSidebarOpen(!sidebarOpen);
             }}
           >
-            <span className="material-symbols-outlined">dehaze</span>
-            {Sidebar()}
+            {sidebarOpen ? (
+              <MdClose className="closeSymbol" />
+            ) : (
+              <span className="material-symbols-outlined dehazeSymbol">
+                dehaze
+              </span>
+            )}
           </button>
         </div>
       </header>
+      <Sidebar show={sidebarOpen} />
+
       {/* <Vinyl /> */}
 
       {/* Listen without limits */}

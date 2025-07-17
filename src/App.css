@@ -21,6 +21,7 @@
   );
 }
 
+
 .contentContainer {
   display: flex;
   flex-direction: column;
@@ -68,6 +69,7 @@
   /* width: 500px; */
   display: flex;
   align-items: center;
+
 }
 
 .getStartedButton {
@@ -79,6 +81,8 @@
   padding: 15px 27px 15px 27px;
   text-decoration: none;
   border: 1px solid #ffd2d7;
+
+
 }
 
 .getStartedButton:hover {

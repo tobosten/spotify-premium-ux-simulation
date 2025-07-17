@@ -173,13 +173,13 @@ const Dropdown = () => {
     if (value === true) {
       return (
         <div>
-          <span class="material-symbols-outlined">keyboard_arrow_up</span>
+          <span className="material-symbols-outlined">keyboard_arrow_up</span>
         </div>
       );
     } else {
       return (
         <div>
-          <span class="material-symbols-outlined">keyboard_arrow_down</span>
+          <span className="material-symbols-outlined">keyboard_arrow_down</span>
         </div>
       );
     }

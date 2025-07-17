@@ -19,6 +19,12 @@
   }
 }
 
+@media only screen and (max-width : 500px) {
+ .navbar{
+  width: 300px;
+ }
+}
+
 @media only screen and (max-width : 900px) {
    
   .headerOptionsRight {
@@ -33,12 +39,5 @@
     background-color: black;
     border: 0px;
   }
-
-  .sidebar {
-    background-color: white;
-    
-    position: absolute;
-  }
-
 }
   

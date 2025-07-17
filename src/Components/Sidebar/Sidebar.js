@@ -4,6 +4,9 @@ import logo from "./logo.png";
 import "../../MediaScreen/AppMedia.css"
 
 const Sidebar = ({ show }) => {
+
+  /* This does not work on mobile devices when it should cover full screen. */
+
   function Card({ title, text }) {
     return (
       <div className="card">

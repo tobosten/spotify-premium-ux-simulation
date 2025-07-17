@@ -7,6 +7,16 @@
     width: 90%;
     align-self: center;
     }
+
+    .footerBottomText {
+      justify-content: center;
+    }
+}
+
+@media only screen and (max-width : 400px) {
+  .headerPopupMenu {
+    margin-left: 80%;
+  }
 }
 
 @media only screen and (max-width : 900px) {
@@ -18,7 +28,7 @@
   .headerPopupMenu {
     display:grid;
     position: absolute;
-    margin-left: 90%;
+    margin-left: 85%;
     cursor: pointer;
     background-color: black;
     border: 0px;
@@ -26,8 +36,7 @@
 
   .sidebar {
     background-color: white;
-    height: 100px;
-    width: 100px;
+    
     position: absolute;
   }
 

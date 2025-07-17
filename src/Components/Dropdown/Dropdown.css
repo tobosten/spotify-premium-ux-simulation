@@ -27,13 +27,18 @@
   align-items: center;
 }
 
-.titleContainer:hover {
+.titleContainer:hover{
   background-color: rgb(31, 31, 31);
-  text-decoration: underline;
   cursor: pointer;
 }
 
+.titleContainer:hover div {
+  text-decoration: underline;
+}
 
+.titleContainer span{
+  padding-right: 10px;
+}
 
 .backgroundColorGray {
   background-color: rgb(31, 31, 31);
@@ -62,3 +67,4 @@
 .dropdownText a:hover {
   font-weight: 700;
 }
+

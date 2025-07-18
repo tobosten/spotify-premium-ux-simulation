@@ -30,8 +30,15 @@ function App() {
     }
   };
 
+  function handleScroll() {
+    setSidebarOpen(false)
+  }
+
+
+
   useEffect(() => {
     window.addEventListener("resize", handleResize);
+    window.addEventListener("scroll", handleScroll)
   }, []);
 
   return (

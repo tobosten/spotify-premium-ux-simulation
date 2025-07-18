@@ -13,15 +13,9 @@
     }
 }
 
-@media only screen and (max-width : 400px) {
-  .headerPopupMenu {
-    margin-left: 80%;
-  }
-}
-
-@media only screen and (max-width : 500px) {
- .navbar{
-  width: 300px;
+@media only screen and (max-device-width: 600px) {
+ .sidenav{
+  width: 90%;
  }
 }
 

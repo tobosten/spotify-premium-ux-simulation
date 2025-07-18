@@ -24,6 +24,15 @@ import { MdClose } from "react-icons/md";
 function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
+  function handleResize() {
+    if (window.innerWidth > 900) {
+      setSidebarOpen(false)
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", handleResize);
+  }, []);
 
   return (
     <div className="App">
@@ -65,7 +74,7 @@ function App() {
           </button>
         </div>
       </header>
-      <Sidebar show={sidebarOpen} />
+      <Sidebar show={sidebarOpen}/>
 
       {/* <Vinyl /> */}
 

@@ -1,9 +1,10 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./Sidebar.css";
 import logo from "./logo.png";
-import "../../MediaScreen/AppMedia.css"
+import '../../MediaScreen/AppMedia.css'
 
 const Sidebar = ({ show }) => {
+  
 
   /* This does not work on mobile devices when it should cover full screen. */
 

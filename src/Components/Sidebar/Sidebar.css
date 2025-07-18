@@ -1,38 +1,17 @@
-/* .sidebar {
-  height: 100vh;
-  width: 100vw;
-  position: absolute;
-  z-index: 100;
-
-  opacity: 0.2;
-  background-color: black;
-}
-
-.sidebarContent {
-  opacity: 2;
-  background-color: black;
-  height: 100px;
-  width: 100px;
-}
-
-.closeSidebar {
-  color: white;
-  position: relative;
-  z-index: 101;
-} */
 
 
 .sidenav {
   color: white;
   position: relative;
   z-index: 100;
-  width: 400px;
   background: black;
   position: absolute;
   /* height: 100vh; */
-  padding: 10px 30px 30px 30px;
-  transition: all 1s;
-  right: -120%;
+  width: 400px;
+  /* padding: 10px 30px 30px 30px; */
+  padding-bottom: 20px;
+  transition: all .7s;
+  right: -150%;
 
   overflow: hidden;
   border-bottom-left-radius: 15px;
@@ -52,6 +31,7 @@
   font-weight: 700;
   font-size: 34px;
   margin-bottom: 20px;
+  padding: 10px 0 0 20px;
 }
 
 .cardContainer {
@@ -91,7 +71,8 @@
   font-size: 34px;
   margin-top: 10px;
   text-decoration: none;
-  color: white;  
+  color: white;
+  padding-left: 20px;
 }
 
 .boldLinkText:hover {
@@ -101,14 +82,17 @@
 .separatorLine {
   background-color: white;
   height: 2px;
-  width: 20px;
+  width: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-left: 20px;
 }
 
 
 .mediumLinkText {
   font-size: 24px;
+  padding: 0px 0px 10px 20px;
+
 }
 
 .mediumLinkText:hover {

@@ -12,6 +12,7 @@
   min-height: 100vh;
   position: relative;
   font-family: sans-serif;
+  overflow-x: hidden;
 
   background: linear-gradient(
     200deg,

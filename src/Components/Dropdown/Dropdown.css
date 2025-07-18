@@ -61,6 +61,8 @@
   padding: 20px 30px 20px 30px;
   border-bottom: 1px solid gray;
   border-radius: 5px;
+  font-size: 16px;
+  transition: all .1s;
 }
 
 .dropdownText a {
@@ -69,5 +71,14 @@
 
 .dropdownText a:hover {
   font-weight: 700;
+}
+
+
+.doNotShow {
+  height: 0px;
+  font-size: 0px;
+  transition: all .1s;
+  border: 0px;
+  margin-bottom: -40px;
 }
 

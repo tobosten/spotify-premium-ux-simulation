@@ -13,9 +13,9 @@
     }
 }
 
-@media only screen and (max-device-width: 600px) {
+@media only screen and (min-device-width : 600px) {
  .sidenav{
-  width: 90%;
+  /* width: 50%; */
  }
 }
 

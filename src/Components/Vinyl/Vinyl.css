@@ -2,7 +2,7 @@
 
 .imageContainer {
     position: absolute;
-    margin-left: 50%;
+    margin-left: 60%;
     transform: rotate(-5deg);
     z-index: 1;
 }

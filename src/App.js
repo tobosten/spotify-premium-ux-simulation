@@ -82,8 +82,9 @@ function App() {
         </div>
       </header>
       <Sidebar show={sidebarOpen}/>
+      <Vinyl />
 
-      {/* <Vinyl /> */}
+      
 
       {/* Listen without limits */}
       <div className="contentContainer">

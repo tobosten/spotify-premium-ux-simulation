@@ -15,10 +15,10 @@
   overflow-x: hidden;
 
   background: linear-gradient(
-    200deg,
-    rgba(255, 210, 215, 1) 5%,
-    rgba(138, 109, 109, 1) 15%,
-    rgba(18, 18, 18, 1) 40%
+    215deg,
+    rgba(255, 210, 215, 1) 2%,
+    rgba(138, 109, 109, 1) 5%,
+    rgba(18, 18, 18, 1) 20%
   );
 }
 

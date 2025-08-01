@@ -3,8 +3,9 @@
 .imageContainer {
     position: absolute;
     margin-left: 60%;
-    transform: rotate(-5deg);
+    transform: rotate(-20deg);
     z-index: 1;
+    margin-top: -10%;
 }
 
 .vinylImage {

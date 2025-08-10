@@ -7,11 +7,11 @@
   background: black;
   position: absolute;
   /* height: 100vh; */
-  width: 400px;
+  width: 350px;
   /* padding: 10px 30px 30px 30px; */
   padding-bottom: 20px;
   transition: all .7s;
-  right: -100%;
+  right: -115%;
 
   overflow: hidden;
   border-bottom-left-radius: 15px;

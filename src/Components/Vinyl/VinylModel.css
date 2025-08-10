@@ -1,0 +1,10 @@
+
+.modelContainer {
+  position: absolute;
+  z-index: 1;
+
+  height: 400px;
+  width: 400px;
+  margin-left: 55%;
+  margin-top: 10%;
+}

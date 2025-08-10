@@ -2,6 +2,7 @@ import "./App.css";
 import "./MediaScreen/App1000.css";
 import "./Header.css";
 import Vinyl from "./Components/Vinyl/Vinyl";
+import VinylModel from "./Components/Vinyl/VinylModel";
 import ExperienceDifference from "./Components/ExperienceDiff/ExperienceDiff";
 import Affordable from "./Components/Affordable/Affordable";
 import PlanCard from "./Components/PlanCard/PlanCard";
@@ -22,6 +23,7 @@ import { MdClose } from "react-icons/md";
 // Site: https://www.spotify.com/ie/premium/
 
 function App() {
+  /* console.log("Current host:", window.location.href); */
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   function handleResize() {
@@ -83,6 +85,7 @@ function App() {
       </header>
       <Sidebar show={sidebarOpen}/>
       <Vinyl />
+      <VinylModel />
 
       
 

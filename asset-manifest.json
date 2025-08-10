@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/spotify-premium-ux-simulation/static/css/main.fc1668dc.css",
-    "main.js": "/spotify-premium-ux-simulation/static/js/main.207abd5e.js",
+    "main.css": "/spotify-premium-ux-simulation/static/css/main.b1c3a6f0.css",
+    "main.js": "/spotify-premium-ux-simulation/static/js/main.9cb3befb.js",
     "static/js/453.8e602fbf.chunk.js": "/spotify-premium-ux-simulation/static/js/453.8e602fbf.chunk.js",
     "static/media/logo.png": "/spotify-premium-ux-simulation/static/media/logo.9cf3238cf2a96354e768.png",
     "index.html": "/spotify-premium-ux-simulation/index.html",
-    "main.fc1668dc.css.map": "/spotify-premium-ux-simulation/static/css/main.fc1668dc.css.map",
-    "main.207abd5e.js.map": "/spotify-premium-ux-simulation/static/js/main.207abd5e.js.map",
+    "main.b1c3a6f0.css.map": "/spotify-premium-ux-simulation/static/css/main.b1c3a6f0.css.map",
+    "main.9cb3befb.js.map": "/spotify-premium-ux-simulation/static/js/main.9cb3befb.js.map",
     "453.8e602fbf.chunk.js.map": "/spotify-premium-ux-simulation/static/js/453.8e602fbf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc1668dc.css",
-    "static/js/main.207abd5e.js"
+    "static/css/main.b1c3a6f0.css",
+    "static/js/main.9cb3befb.js"
   ]
 }

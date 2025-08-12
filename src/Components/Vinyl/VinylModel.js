@@ -35,7 +35,7 @@ function Model() {
   });
 
   return (
-    <mesh rotation={[1, 0, 0]} >
+    <mesh rotation={[1, 0, .1]} >
       <primitive
         ref={ref}
         object={scene}
@@ -52,8 +52,10 @@ useGLTF.preload(`${process.env.PUBLIC_URL}/model.glb`);
 const Scene = () => {
   return (
     <>
-      <directionalLight position={[0.5, 3, 2]} intensity={2} />
-      {/* <ambientLight intensity={2} /> */}
+      <directionalLight position={[-1.5, 3, 2]} intensity={2} />
+      <directionalLight position={[-2, 5, 2]} intensity={.5} />
+      <directionalLight position={[-2.7, 5, 2]} intensity={.1} />
+      {/* <ambientLight intensity={1} /> */}
 
       {/* <Sphere size={[2.5, 10, 7]} /> */}
       <Model />

@@ -262,7 +262,7 @@ function App() {
           <a>Cookie Settings</a>
           <a>About Ads</a>
           <a>Accessibility</a>
-          <div>© 2025 Spotify AB</div>
+          <div>&copy; 2025 Spotify AB</div>
         </div>
       </footer>
     </div>

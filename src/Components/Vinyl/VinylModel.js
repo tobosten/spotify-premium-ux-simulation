@@ -1,6 +1,6 @@
 import { Canvas, useFrame, useLoader, useThree } from "@react-three/fiber";
-import { useRef, useState } from "react";
-import { OrbitControls, useGLTF, useHelper } from "@react-three/drei";
+import { Suspense, useRef, useState } from "react";
+import { Html, OrbitControls, useGLTF, useHelper, useProgress } from "@react-three/drei";
 import React from "react";
 import "./VinylModel.css";
 import { DirectionalLightHelper } from "three";
@@ -66,10 +66,17 @@ const Scene = () => {
 };
 
 const VinylModel = () => {
+  function Loader() {
+    const { progress } = useProgress();
+    return <Html center>{progress.toFixed(0)} % loaded</Html>;
+  }
+
   return (
     <div className="modelContainer">
       <Canvas>
-        <Scene />
+        <Suspense fallback={<Loader />}>
+          <Scene />
+        </Suspense>
       </Canvas>
     </div>
   );

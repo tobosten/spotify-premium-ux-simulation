@@ -25,6 +25,7 @@ import { MdClose } from "react-icons/md";
 function App() {
   /* console.log("Current host:", window.location.href); */
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [imgLoading, setImgLoading] = useState(true);
 
   function handleResize() {
     if (window.innerWidth > 900) {
@@ -83,13 +84,12 @@ function App() {
           </button>
         </div>
       </header>
-      <Sidebar show={sidebarOpen}/>
+      <Sidebar show={sidebarOpen} />
       <Vinyl />
       <VinylModel />
 
-      
 
-      {/* Listen without limits */}
+
       <div className="contentContainer">
         <div className="withoutLimitsContainer">
           <span className="withoutLimitsText1">Listen without limits.</span>
@@ -244,12 +244,11 @@ function App() {
         </div>
 
         <div className="footerHandles">
-          <div className="handleLogo">{/* Missing instagram icon */}</div>
-          <div className="handleLogo">{/* Missing X icon */}</div>
-          <div className="handleLogo">{/* Missing Facebook icon */}</div>
+          <div className="handleLogo"></div>
+          <div className="handleLogo"></div>
+          <div className="handleLogo"></div>
         </div>
         <div className="footerCountry">
-          {/* <div className="footerCountryGlobe"/> */}
           <span className="material-symbols-outlined footerCountryGlobe">
             public
           </span>
